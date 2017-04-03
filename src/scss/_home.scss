@@ -18,11 +18,14 @@ body{
 
   ul{
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    float:right;
   }
 
   .linea_horizontal{
     display: flex;
-    float:right;
+    flex-direction: column;
     size:2;
     width:80%;
     color: #fff;

@@ -1,64 +1,52 @@
 {
-  "name": "npm-frontend-boilerplate",
+  "name": "npm-project",
   "version": "0.0.1",
-  "description": "A NPM based boilerplate to easily setup a frontend development environment",
-  "main": "dist/index.html",
-  "keywords": [],
-  "author": "Camila Quintero",
-  "license": "ISC",
-  "contributors": [
-    {
-      "name": "Camila Quintero",
-      "email": "quintero.cami@gmail.com",
-      "url": "https://github.com/alimachaves"
-    }
-  ],
+  "description": "Portfolio2017",
+  "main": "index.js",
   "scripts": {
-    "clean": "rm -rf ./dist && mkdir dist",
-    "scss": "node-sass --output-style compressed -o dist/css src/scss --source-map-embed dist",
+    "css": "node-sass -o dist/css src/scss --output-style compressed --source-map-embed",
     "autoprefixer": "postcss -u autoprefixer --autoprefixer.browsers '> 5%, ie 9' -r dist/css/*",
-    "imagemin": "imagemin src/images dist/images -p",
-
-    "lint": "npm run lint:eslint && npm run lint:sass",
-    "lint:eslint": "eslint --ext=.jsx --ext=js ./src/ ./test/ ./docs/",
-    "lint:sass": "scss-lint src/",
-
+    "build:css": "npm run css && npm run autoprefixer",
+    "build:html": "copy src/*/.html dist",
+    "build:img": "copy 'src/img/*/.{jpg,png}' 'dist/img'",
+    "build:js": "copy 'src/js/*.js' 'dist/js'",
+    "build": "npm run build:css && npm run build:html && npm run build:img && npm run build:js",
+    "watch:css": "onchange src/scss/*.scss -- npm run build:css",
+    "watch:html": "onchange src/*/.html -- npm run build:html",
+    "watch:img": "onchange src/img/*{/.,.}{jpg,png} -- npm run build:img",
+    "watch:js": "onchange src/js/*.js -- npm run build:js",
+    "watch": "parallelshell 'npm run watch:css' 'npm run watch:html' 'npm run watch:img' 'npm run watch:js'",
     "serve": "browser-sync start --server dist --files dist",
-
-    "build": "npm run build:css && npm run build:images",
-    "build:css": "npm run scss && npm run autoprefixer",
-    "build:images": "npm run imagemin",
-    "build:fonts": "rm -rf ./dist/fonts && mkdir ./dist/fonts && cp -R src/font-awesome-4.7.0/fonts/* ./dist/fonts/",
-
+    "dev": "npm run build && parallelshell 'npm run watch' 'npm run serve'",
+    "lint:sass": "sass-lint src/*/.scss -c -v",
+    "lint": "npm run lint:sass",
     "deploy": "gh-pages -d dist",
-
-    "watch:css": "onchange 'src/scss/*.scss' -- npm run build:css",
-
-    "dev": "npm run build && parallelshell 'npm run serve' 'npm run watch:css'",
-    "postinstall": "npm run dev"
+    "validate": "npm ls"
   },
   "pre-commit": [
     "lint"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:https://github.com/Alimachaves/Portfolio2017.git"
+    "url": "git+https://github.com/Alimachaves/Portfolio2017.git"
   },
-  "dependencies": {
-    "normalize.css": "3.0.3"
-  },
+  "keywords": [
+    "npm",
+    "boilerplate",
+    "frontend"
+  ],
+  "author": "Camila Quintero",
+  "license": "MIT",
   "devDependencies": {
-    "@schibstedspain/frontend-pre-commit-rules": "6.6.1",
-    "autoprefixer": "6.3.3",
-    "browser-sync": "2.11.1",
-    "eslint": "2.2.0",
-    "gh-pages": "0.11.0",
-    "imagemin-cli": "2.1.0",
-    "node-sass": "3.4.2",
-    "onchange": "2.0.0",
-    "parallelshell": "2.0.0",
-    "postcss-cli": "2.5.1",
-    "svg-sprite-generator": "0.0.7",
-    "svgo": "0.6.1"
+    "autoprefixer": "^6.3.6",
+    "browser-sync": "^2.11.2",
+    "copy": "^0.3.0",
+    "gh-pages": "^0.12.0",
+    "node-sass": "^3.4.2",
+    "onchange": "^2.2.0",
+    "parallelshell": "^2.0.0",
+    "postcss-cli": "^2.5.1",
+    "precommit-hook": "^3.0.0",
+    "sass-lint": "^1.5.1"
   }
 }
