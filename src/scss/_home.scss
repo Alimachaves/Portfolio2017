@@ -1,0 +1,36 @@
+body{
+  background-image: url('../images/fondo.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.Menu{
+  display: flex;
+  float: right;
+  color: #fff;
+
+  a{
+    text-decoration: none;
+    border:none;
+    box-shadow: none;
+    color: #fff;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  .linea_horizontal{
+    display: flex;
+    float:right;
+    size:2;
+    width:80%;
+    color: #fff;
+  }
+
+  .alineado{
+    display: inline-flex;
+    float: right;
+  }
+
+}
