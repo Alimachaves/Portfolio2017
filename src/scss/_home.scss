@@ -8,36 +8,217 @@ body{
   background-size: cover;
 }
 
-.Menu{
-  display: flex;
-  float: right;
-  color: #fff;
-
-  a{
-    text-decoration: none;
-    border:none;
-    box-shadow: none;
-    color: #fff;
-  }
-
-  ul{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    float:right;
-  }
-
-  .linea_horizontal{
-    display: flex;
-    flex-direction: column;
-    size:2;
-    width:80%;
-    color: #fff;
-  }
-
-  .alineado{
-    display: inline-flex;
-    float: right;
-  }
-
+.logo {
+  margin-left: 30px;
+  float:left;
+  position: fixed;
+  top:40px;
 }
+
+
+/* Navegación Mobile y tablet */
+.topnav{
+  float: right;
+  margin-top: 50px;
+  margin-right: 10px;
+  /* Large */
+  @media(min-width:992px){
+    display:none;
+  }
+}
+.topnav a {
+  float: right;
+  display: none;
+  color:#fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav .icon {
+  display: none;
+}
+@media screen and (max-width:991px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+.topnav.responsive {position: relative;}
+.topnav.responsive a.icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+
+/* Navegación Dsktop*/
+
+.col-12{
+  display: inline;
+  width: 20%;
+  color:white;
+  position:fixed;
+  right: 0;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    display:none;
+  }
+  /* Small */
+  @media(max-width:767px){
+    display: none;
+  }
+}
+
+a{
+  text-decoration:none;
+  color: #fff;
+}
+
+h5 {
+  position: relative;
+  overflow: hidden;
+  text-align: right;
+}
+
+h5:after {
+  display: inline-block;
+  content: "";
+  height: 2px;
+  background: #fff;
+  position: relative;
+  width: 20%;
+  top: 50%;
+  margin-bottom: 7px;
+  margin-left: 10px;
+}
+
+/* Fin Navegación Desktop */
+
+
+.iconos{
+  ul {
+    position: fixed;
+    bottom: 0;
+    padding: 0 25px 25px;
+    margin: 0 auto;
+    /* Small */
+    @media(max-width:767px){
+      display: flex;
+      position: fixed;
+      flex-direction: row;
+      right: 50px;
+      left: 50px;
+    }
+
+    li {
+      display: block;
+      list-style-type: none;
+      margin: 10px;
+    }
+  }
+  /** Linkedin **/
+
+  .linkedin {
+    width: 50px;
+    height: 50px;
+  }
+
+  .linkedin .border {
+    background: transparent;
+    color:#fff;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    border: 2px solid #fff;
+    transition: all .2s ease-in-out;
+  }
+
+  .linkedin .border:hover {
+    background: #3b5998;
+    border-color: #436aaf;
+    color: rgba(255,255,255, 0.9);
+    transform: scale(1.2);
+  }
+
+  .fa.fa-linkedin {
+    font-size: 25px;
+  }
+
+  /** Mail **/
+
+  .linkedin2 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .linkedin2 .border {
+    background: transparent;
+    color:#fff;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    border: 2px solid #fff;
+    transition: all .2s ease-in-out;
+  }
+
+  .linkedin2 .border:hover {
+    background: #3b5998;
+    border-color: #436aaf;
+    color: rgba(255,255,255, 0.9);
+    transform: scale(1.2);
+  }
+
+  .fa.fa-linkedin2 {
+    font-size: 25px;
+  }
+
+  /** Instagram **/
+
+  .instagram {
+    width: 50px;
+    height: 50px;
+  }
+
+  .instagram .border {
+    background: transparent;
+    color:#fff;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    border: 2px solid #fff;
+    transition: all .2s ease-in-out;
+  }
+
+  .instagram .border:hover {
+    background: #3b5998;
+    border-color: #436aaf;
+    color: rgba(255,255,255, 0.9);
+    transform: scale(1.2);
+  }
+
+  .fa.fa-instagram {
+    font-size: 25px;
+  }
+}
+
+  .foto{
+     display: flex;
+     align-items: center;
+
+    img {
+      width: 300px;
+      height: 300px;
+      border-radius: 150px;
+    }
+  }
