@@ -11,6 +11,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet">
   <link rel="icon" type="image/jpg" href="images/favicon.png">
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
   <script src="js/menu.js"></script>
 </head>
 
@@ -21,50 +23,135 @@
   </div>
   <!--Fin Logo-->
   <!--Inicio Menu-->
-  <div class="topnav" id="myTopnav">
-    <a href="#home">Projects</a>
-    <a href="#about">About me</a>
-    <a href="#contact">Contact</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="index.html"><h2>projects</h5></a>
+      <a href="about.html"><h2>about me</h5></a>
+      <a href="contact.html"><h2>contact</h5></a>
+    </div>
   </div>
+  <span class="menusito" onclick="openNav()">&#9776;</span>
+  <script>
+  function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+  }
+
+  function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+  }
+  </script>
+
   <nav>
-  <div class="col-12">
-    <ul>
-      <li><a href="index.html"><h5>Projects</h5></a></li>
-      <li><a href="aboutme.html"><h5>About me</h5></a></li>
-      <li><a href="contact.html"><h5>Contact</h5></a></li>
-    </ul>
-  </div>
+    <div class="col-12">
+      <ul>
+        <li><a href="index.html"><h5 class="menu">Projects</h5></a></li>
+        <li><a href="aboutme.html"><h5 class="menu">About me</h5></a></li>
+        <li><a href="contact.html"><h5 class="menu">Contact</h5></a></li>
+      </ul>
+    </div>
   </nav>
   <!--Fin Menu-->
+  <!--Texto saludo-->
+  <div class="container">
+    <section class="fotomain">
+      <div class="saludo">
+        <h5>Hey! I'm</h5>
+        <h1>Camila</h1>
+      </div>
+      <div class="fotoperfil">
+        <div class="circulo">
+        </div>
+      </div>
+      <div class="linea">
+        <svg id="chart" width="30" height="50">
+          <line x1="20" y1="20" x2="20" y2="130"></line>
+        </svg>
+      </div>
+      <!--Inicio íconos-->
+      <div class="iconos">
+        <div class="center">
+          <ul>
+            <li class="linkedin"><a href="https://www.linkedin.com/in/camilaq/" target="_blank">
+              <button class="border"><i class="fa fa-linkedin"></i></button>
+            </a>
+          </li>
 
-  <!--Inicio foto-->
-  <div class="foto">
-    <img src="images/profile.jpg" alt="foto camila quintero">
+          <li class="linkedin2"><a href="contact.html">
+            <button class="border"><i class="fa fa-envelope-o"></i></button>
+          </li>
+
+          <li class="instagram"><a href="https://www.instagram.com/alimachaves/" target="_blank">
+            <button class="border"><i class="fa fa-instagram"></i></button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--Fin íconos-->
+    <div class="linea2">
+      <svg id="chart" width="30" height="50">
+        <line x1="20" y1="20" x2="20" y2="130"></line>
+      </svg>
+    </div>
+      <div class="parrafo">
+              <p>Visual Designer focused on creating functional, minimalistic and full of heart products that showcase everything brands stand for. I believe creativity is fueled by movement and experiences.<br> So let’s move together to create great stuff! </p>
+      </div>
+      <div class="linea3">
+        <svg id="chart" width="30" height="50">
+          <line x1="20" y1="20" x2="20" y2="130"></line>
+        </svg>
+      </div>
+
+      <div class="shiseido">
+        <a href="shiseido.html">
+      <img src="../images/Shiseido_color.png")>
+      <div class="logos">
+      <img src="../images/logo_shiseido.svg">
+    </div>
+  </a>
   </div>
-  <!--Fin foto-->
-
-  <!--Inicio íconos-->
-<div class="iconos">
-  <div class="center">
-    <ul>
-      <li class="linkedin"><a href="https://www.linkedin.com/in/camilaq/" target="_blank">
-        <button class="border"><i class="fa fa-linkedin"></i></button>
-      </a>
-      </li>
-
-      <li class="linkedin2"><a href="contact.html">
-        <button class="border"><i class="fa fa-envelope-o"></i></button>
-      </li>
-
-      <li class="instagram"><a href="https://www.instagram.com/alimachaves/" target="_blank">
-        <button class="border"><i class="fa fa-instagram"></i></button>
-      </li>
-    </ul>
+  <div class="linea4">
+    <svg id="chart" width="30" height="50">
+      <line x1="20" y1="20" x2="20" y2="130"></line>
+    </svg>
   </div>
+  <div class="Affligem">
+    <a href="affligem.html">
+  <img src="../images/Affligem_color.png")>
+  <div class="logos">
+  <img src="../images/logo_affligem.svg">
 </div>
-  <!--Fin íconos-->
+</a>
+</div>
 
+<div class="linea5">
+  <svg id="chart" width="30" height="50">
+    <line x1="20" y1="20" x2="20" y2="130"></line>
+  </svg>
+</div>
+<div class="akzo">
+  <a href="akzo.html">
+<img src="../images/Akzo_color.png")>
+<div class="logos">
+<img src="../images/logo_akzo.svg">
+</div>
+</a>
+</div>
+
+<div class="linea6">
+  <svg id="chart" width="30" height="50">
+    <line x1="20" y1="20" x2="20" y2="130"></line>
+  </svg>
+</div>
+<div class="kantar">
+  <a href="kantar.html">
+<img src="../images/Kantar_color.png")>
+<div class="logos">
+<img src="../images/logo_kv.svg">
+</div>
+</a>
+</div>
+    </section>
 
 </body>
 </html>
