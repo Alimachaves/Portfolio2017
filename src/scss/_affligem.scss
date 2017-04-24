@@ -1,7 +1,13 @@
 .fotocabecera{
   position:absolute;
   top:215px;
+
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    top: 21%;
+    left: 8%;
   }
+}
 
   .parrafoaff{
     width:70%;
@@ -11,7 +17,17 @@
     text-align: left;
     color: #fff;
     display: block;
+    /* Medium */
+    @media(min-width:768px) and (max-width:991px){
+      width: 35%;
+position: relative;
+top: 7%;
+left: 60%;
+text-align: left;
+color: #fff;
+display: block;
   }
+}
 
 .imgsnip{
   width:375px;
@@ -19,6 +35,14 @@
   background-image: url('../images/snipaff.png');
   background-repeat: no-repeat;
   background-position-x: -65px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    width: 100%;
+        height: 100%;
+        background-position: center;
+        top: 10%;
+        position: absolute;
+}
 }
 
 .imgsnip2{
@@ -29,8 +53,11 @@
   background-position-x: -125px;
   background-position: center;
   background-position-y: -300px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    display: none;
 }
-
+}
 
 .iconosaff{
   ul {
@@ -52,8 +79,7 @@
       display: flex;
       position: fixed;
       flex-direction: row;
-      right: 50px;
-      left: 50px;
+      left: 31%;
     }
 
   li {

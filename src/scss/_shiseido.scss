@@ -19,13 +19,24 @@ padding: 0;
   position: absolute;
   top: 9%;
   left: 30%;
-}
 
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    top: 2%;
+    left: 17%;
+}
+}
 .titulo {
   color: #fff;
   position: relative;
   top: 15%;
   left: 14%;
+
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    top: 9%;
+    left: 8%;
+}
 }
 
 .subtitulo {
@@ -33,12 +44,23 @@ padding: 0;
   position: relative;
   top: 11%;
   left: 14%;
+
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    top: 6%;
+    left: 8%;
+}
 }
 
 .fotosshiseido{
   position: relative;
   top: 90px;
   left: 55px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+
+    left: 250px;
+}
 
 }
 
@@ -60,10 +82,10 @@ padding: 0;
     /* Medium */
     @media(min-width:768px) and (max-width:991px){
       display: flex;
-      position: fixed;
+      position: absolute;
       flex-direction: row;
-      right: 50px;
-      left: 50px;
+      left: 253px;
+      top: 1450px;
     }
 
   li {

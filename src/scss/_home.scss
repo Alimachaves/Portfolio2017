@@ -57,7 +57,8 @@ body{
   transition: 0.5s;
   /* Medium */
   @media(min-width:768px) and (max-width:991px){
-    width:65%;
+    width:100%;
+    position:absolute;
   }
   /* Large */
   @media(min-width:992px){
@@ -71,6 +72,11 @@ body{
   width: 100%;
   text-align: center;
   margin-top: 30px;
+
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    top:30%;
+}
 }
 
 .overlay a {
@@ -90,7 +96,7 @@ body{
   /* Medium */
   @media(min-width:768px) and (max-width:991px){
     top:43px;
-    right:40px;
+    right:51px;
   }
 }
 
@@ -158,11 +164,10 @@ a{
 
     /* Medium */
     @media(min-width:768px) and (max-width:991px){
-      display: flex;
       position: fixed;
-      flex-direction: row;
-      right: 50px;
-      left: 50px;
+  display: -webkit-box;
+  display: flex;
+  left: 250px;
     }
 
     li {
@@ -282,7 +287,7 @@ a{
   /* Medium */
   @media(min-width:768px) and (max-width:991px){
     position:relative;
-    top:208px;
+    top:189px;
     left:410px;
   }
 
@@ -340,7 +345,7 @@ a{
     text-align: left;
   position: absolute;
   width: 43%;
-  top: 273px;
+  top: 254px;
   left: 410px;
   }
 }
@@ -363,31 +368,55 @@ left: 202px;
   position: relative;
   top:465px;
   left:165px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    top: 599px;
+    left: 202px;
+  }
 }
 
 .linea3{
   position: relative;
-  top:430px;
+  top:774px;
   left:165px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    top: 783px;
+    left: 202px;
+  }
 }
 
 .linea4{
   position: relative;
   top:430px;
   left:165px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    top: 784px;
+    left: 202px;
+  }
 }
 
 .linea5{
   position: relative;
   top:430px;
   left:165px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+top:716px;
+  }
 }
 
 .linea6{
   position: relative;
   top:430px;
   left:165px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+
+  }
 }
+
 .shiseido{
   display: flex;
   flex-direction: column;
@@ -398,10 +427,10 @@ left: 202px;
   /* Medium */
   @media(min-width:768px) and (max-width:991px){
     width: 21%;
-position: relative;
-top: 326px;
-left: 132px;
-}
+    position: relative;
+    top: 326px;
+    left: 137px;
+  }
 }
 
 .Affligem{
@@ -411,6 +440,13 @@ left: 132px;
   position:relative;
   top: 440px;
   left: 100px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    width: 21%;
+    position: relative;
+    top: 326px;
+    left: 137px;
+  }
 }
 
 .akzo{
@@ -420,6 +456,13 @@ left: 132px;
   position:relative;
   top: 440px;
   left: 100px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    width: 21%;
+    position: relative;
+    top: 335px;
+    left: 137px;
+  }
 }
 
 .kantar{
@@ -429,4 +472,24 @@ left: 132px;
   position:relative;
   top: 440px;
   left: 100px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    width: 21%;
+    position: relative;
+    top: 332px;
+    left: 137px;
+  }
+}
+
+
+.logos{
+  display:block;
+  width: 100%;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+  display: flex;
+position: absolute;
+left: 218px;
+top: 37px;
+}
 }
