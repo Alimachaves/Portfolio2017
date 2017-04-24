@@ -31,24 +31,63 @@ body{
   position: relative;
   top: 220px;
   left: 46px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+top:23%;
+left:28%;
+  }
+  /* Large */
+  @media(min-width:992px){
+    top: 31.5%;
+    left: 34.7%;
+  }
 }
 
 .lineac2{
   position: relative;
   top: 187px;
   left: 46px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+top:13%;
+left:28%;
+  }
+  /* Large */
+  @media(min-width:992px){
+    top:10%;
+    left:34.7%;
+  }
 }
 
 .lineac3{
   position: relative;
   top: -877px;
   left: 46px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    position: absolute;
+    top: -77%;
+    left: 3%;
+  }
+  /* Large */
+  @media(min-width:992px){
+    position: absolute;
+    top: -68%;
+    left: 3%;
+  }
 }
 
 .lineac4{
   position: relative;
   top: -1403px;
   left: 46px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+top:-1388px;
+  }
+  /* Large */
+  @media(min-width:992px){
+  }
 }
 
 .experience{
@@ -59,20 +98,52 @@ body{
   left: 27px;
   height: 60px;
   width: 60px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+top:23%;
+left:25.5%;
+  }
+  /* Large */
+  @media(min-width:992px){
+    top: 31%;
+    left: 33.4%;
+  }
 }
 
 .trabajos{
   position: relative;
   top: -540px;
   left: 94px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    color: #fff;
+    left: 37%;
+top: -59%;
 }
-
+/* Large */
+@media(min-width:992px){
+  color: #fff;
+  left: 40%;
+top: -118%;
+}
+}
 
 .ext{
   position: relative;
   top: 177px;
   left: 95px;
   color: #fff;
+
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+top:15.5%;
+left:35.5%;
+  }
+  /* Large */
+  @media(min-width:992px){
+    top:15.5%;
+    left:38.5%;
+  }
 }
 
 .skills{
@@ -83,6 +154,16 @@ body{
   left: 27px;
   height: 60px;
   width: 60px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+top:-56%;
+left:25.5%;
+  }
+  /* Large */
+  @media(min-width:992px){
+    top: -120%;
+    left: 33.5%;
+  }
 }
 
 .ski{
@@ -90,12 +171,33 @@ body{
   top: -550px;
   left: 95px;
   color: #fff;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+top:-63.5%;
+left:35.5%;
+  }
+  /* Large */
+  @media(min-width:992px){
+    top: -135.5%;
+    left: 39.5%;
+  }
 }
 
 .skills2{
   position: relative;
   top: -515px;
   left: 94px;
+
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    color: #fff;
+    left:12%;
+}
+/* Large */
+@media(min-width:992px){
+  color: #fff;
+  left:8.2%;
+}
 }
 
 .studies{
@@ -113,12 +215,29 @@ body{
   top: -845px;
   left: 95px;
   color: #fff;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+top:-70%;
+position: absolute;
+  }
+  /* Large */
+  @media(min-width:992px){
+  }
 }
 
 .diplomas{
   position: relative;
   top: -820px;
   left: 94px;
+
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    color: #fff;
+    left: 15%;
+}
+/* Large */
+@media(min-width:992px){
+}
 }
 
 .download{
@@ -129,6 +248,14 @@ body{
   left: -21px;
   height: 60px;
   width: 60px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    top: -1151px;
+    left: 147px;
+  }
+  /* Large */
+  @media(min-width:992px){
+  }
 }
 
 .descarga{
@@ -136,6 +263,14 @@ body{
   top: -1447px;
   left: 50px;
   color: #fff;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    top: -1231px;
+    left: 216px;
+  }
+  /* Large */
+  @media(min-width:992px){
+  }
 }
 
 .flecha{
@@ -146,6 +281,16 @@ body{
   left:67px;
   height: 20px;
   width: 20px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    left: 32%;
+top: -51%;
+}
+/* Large */
+@media(min-width:992px){
+  left: 37%;
+top: -104%;
+}
 }
 
 .flecha2{
@@ -156,6 +301,16 @@ body{
   left:67px;
   height: 20px;
   width: 20px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    left: 32%;
+top: -31.5%;
+}
+/* Large */
+@media(min-width:992px){
+  left: 37%;
+top: -66%;
+}
 }
 
 .flecha3{
@@ -166,6 +321,16 @@ body{
   left:67px;
   height: 20px;
   width: 20px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    left: 32%;
+top: -11.5%;
+}
+/* Large */
+@media(min-width:992px){
+  left: 37%;
+top: -29%;
+}
 }
 
 .flecha4{
@@ -176,6 +341,13 @@ body{
   left:67px;
   height: 20px;
   width: 20px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    left: 7%;
+}
+/* Large */
+@media(min-width:992px){
+}
 }
 
 .flecha5{
@@ -186,6 +358,14 @@ body{
   left:67px;
   height: 20px;
   width: 20px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    left: 7%;
+    top:-312px;
+}
+/* Large */
+@media(min-width:992px){
+}
 }
 
 .flecha6{
@@ -196,6 +376,14 @@ body{
   left:67px;
   height: 20px;
   width: 20px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    left: 7%;
+    top:-291px;
+}
+/* Large */
+@media(min-width:992px){
+}
 }
 .flecha7{
   background-image: url('../images/flecha-05.svg');
@@ -205,6 +393,14 @@ body{
   left:67px;
   height: 20px;
   width: 20px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    left: 7%;
+    top: -268px;
+}
+/* Large */
+@media(min-width:992px){
+}
 }
 
 .flecha8{
@@ -215,6 +411,14 @@ body{
   left:67px;
   height: 20px;
   width: 20px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    left: 7%;
+      top: -247px;
+}
+/* Large */
+@media(min-width:992px){
+}
 }
 
 .flecha9{
@@ -225,6 +429,14 @@ body{
   left:67px;
   height: 20px;
   width: 20px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    left: 7%;
+      top: -225px;
+}
+/* Large */
+@media(min-width:992px){
+}
 }
 
 .flecha10{
@@ -235,6 +447,14 @@ body{
   left:67px;
   height: 20px;
   width: 20px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    left: 7%;
+      top: -205px;
+}
+/* Large */
+@media(min-width:992px){
+}
 }
 
 .flecha11{
@@ -245,6 +465,14 @@ body{
   left:67px;
   height: 20px;
   width: 20px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    left: 7%;
+      top: -182px;
+}
+/* Large */
+@media(min-width:992px){
+}
 }
 
 .flecha12{
@@ -255,6 +483,13 @@ body{
   left:67px;
   height: 20px;
   width: 20px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+left: 10%;
+  }
+  /* Large */
+  @media(min-width:992px){
+  }
 }
 .flecha13{
   background-image: url('../images/flecha-05.svg');
@@ -264,6 +499,13 @@ body{
   left:67px;
   height: 20px;
   width: 20px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+left: 10%;
+  }
+  /* Large */
+  @media(min-width:992px){
+  }
 }
 .flecha14{
   background-image: url('../images/flecha-05.svg');
@@ -273,6 +515,13 @@ body{
   left:67px;
   height: 20px;
   width: 20px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+left: 10%;
+  }
+  /* Large */
+  @media(min-width:992px){
+  }
 }
 .flecha15{
   background-image: url('../images/flecha-05.svg');
@@ -282,16 +531,41 @@ body{
   left:67px;
   height: 20px;
   width: 20px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+left: 10%;
+  }
+  /* Large */
+  @media(min-width:992px){
+  }
 }
 
 .todo{
   position: relative;
   top: -163px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+top:-29%;
+left:25%;
+  }
+  /* Large */
+  @media(min-width:992px){
+    top: -79%;
+    left: 31.5%;
+  }
 }
 
 .todo2{
   position: relative;
   top: -235px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+top:2%;
+left:22%;
+  }
+  /* Large */
+  @media(min-width:992px){
+  }
 }
 
 .todo3{
@@ -313,6 +587,15 @@ body{
   left:220px;
   height: 60px;
   width: 140px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+top: -19%;
+  }
+  /* Large */
+  @media(min-width:992px){
+    left: 20%;
+        top:-7%;
+  }
 }
 
 .bolitas1{
@@ -323,6 +606,15 @@ body{
   left:220px;
   height: 60px;
   width: 140px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+top: -53%;
+  }
+  /* Large */
+  @media(min-width:992px){
+    left: 20%;
+        top:-26.7%;
+  }
 }
 
 .bolitas2{
@@ -333,6 +625,15 @@ body{
   left:220px;
   height: 60px;
   width: 140px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+top: -61%;
+  }
+  /* Large */
+  @media(min-width:992px){
+    left: 20%;
+        top:-31%;
+  }
 }
 
 .bolitas3{
@@ -343,6 +644,15 @@ body{
   left:220px;
   height: 60px;
   width: 140px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+top: -44%;
+  }
+  /* Large */
+  @media(min-width:992px){
+    left: 20%;
+        top:-22%;
+  }
 }
 
 .bolitas4{
@@ -353,6 +663,15 @@ body{
   left:220px;
   height: 60px;
   width: 140px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+top: -36%;
+  }
+  /* Large */
+  @media(min-width:992px){
+    left: 20%;
+        top:-17%;
+  }
 }
 
 .bolitas5{
@@ -363,6 +682,15 @@ body{
   left:220px;
   height: 60px;
   width: 140px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+top: -28%;
+  }
+  /* Large */
+  @media(min-width:992px){
+    left: 20%;
+        top:-12%;
+  }
 }
 
 .bolitas6{
@@ -373,6 +701,15 @@ body{
   left:220px;
   height: 60px;
   width: 140px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+top: -70%;
+  }
+  /* Large */
+  @media(min-width:992px){
+    left: 20%;
+    top:-36%;
+  }
 }
 
 .bolitas7{
@@ -383,4 +720,41 @@ body{
   left:220px;
   height: 60px;
   width: 140px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+top: -10%;
+  }
+  /* Large */
+  @media(min-width:992px){
+    left: 20%;
+    top: -2.2%;
+  }
 }
+
+.saludoa{
+  color: #fff;
+  position: absolute;
+  top: 20%;
+  left: 14%;
+
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    position:relative;
+    top:26%;
+    left:410px;
+    margin-bottom: 13%;
+  }
+  /* Large */
+  @media(min-width:992px){
+    position:relative;
+    top:50%;
+    left:50%;
+    margin-bottom: 13%;
+  }
+  h5{
+    margin:0;
+  }
+  h1 {
+    margin: 0;
+  }
+  }

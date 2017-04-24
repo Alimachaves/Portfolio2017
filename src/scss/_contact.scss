@@ -11,6 +11,13 @@
     left:8%;
     width:30%;
   }
+
+  /* Large */
+  @media(min-width:992px){
+    top:10%;
+    left:10%;
+    width:30%;
+  }
 }
 
 // Colores
@@ -30,6 +37,13 @@ form {
     top: 14%;
     left: 41%;
     position: absolute;
+}
+/* Large */
+@media(min-width:992px){
+  width: 35%;
+  top: 14%;
+  left: 41%;
+  position: absolute;
 }
 }
 
@@ -116,6 +130,12 @@ textarea {
     top: 40%;
     left: 3%;
     flex-direction: row;
+    }
+
+    /* Large */
+    @media(min-width:992px){
+      position: fixed;
+      top:70%;
     }
 
   li {

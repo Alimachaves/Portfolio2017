@@ -72,11 +72,11 @@ body{
   width: 100%;
   text-align: center;
   margin-top: 30px;
-
   /* Medium */
   @media(min-width:768px) and (max-width:991px){
     top:30%;
-}
+    position:absolute;
+  }
 }
 
 .overlay a {
@@ -112,6 +112,7 @@ body{
   color:white;
   position:fixed;
   right: 0;
+  top:2%;
   /* Medium */
   @media(min-width:768px) and (max-width:991px){
     display:none;
@@ -125,6 +126,10 @@ body{
 a{
   text-decoration:none;
   color: #fff;
+}
+
+a:hover{
+  color:#295266;
 }
 
 .menu {
@@ -168,6 +173,12 @@ a{
   display: -webkit-box;
   display: flex;
   left: 250px;
+    }
+
+    /* Large */
+    @media(min-width:992px){
+      position: fixed;
+      top:70%;
     }
 
     li {
@@ -293,8 +304,9 @@ a{
 
   /* Large */
   @media(min-width:992px){
-    margin-top: 15%;
-    margin-left: 50%;
+    top: 40%;
+    left: 50%;
+    position: absolute;
   }
 
   h5{
@@ -320,6 +332,11 @@ a{
   @media(min-width:768px) and (max-width:991px){
     top:15%;
     left:10%;
+  }
+  /* Large */
+  @media(min-width:992px){
+    top: 35%;
+    left: 25%;
   }
 }
 
@@ -348,6 +365,15 @@ a{
   top: 254px;
   left: 410px;
   }
+  /* Large */
+  @media(min-width:992px){
+  width: 29%;
+position: absolute;
+text-align: left;
+top: 50%;
+left: 50%;
+
+}
 }
 
 .linea{
@@ -360,10 +386,31 @@ a{
 top: 441px;
 left: 202px;
   }
+  /* Large */
+  @media(min-width:992px){
+display: none;
+
+}
 }
 #chart line {stroke: #fff; stroke-width:2}
 
+.lineaD{
+  /* Small */
+  @media(max-width:767px){
+    display: none;
+  }
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    display: none;
+  }
+  /* Large */
+  @media(min-width:992px){
+    top: 70.7%;
+    left: 34%;
+position: absolute;
 
+}
+}
 .linea2{
   position: relative;
   top:465px;
@@ -373,17 +420,26 @@ left: 202px;
     top: 599px;
     left: 202px;
   }
+
+  /* Large */
+  @media(min-width:992px){
+    display: none;
+}
 }
 
 .linea3{
   position: relative;
-  top:774px;
+  top:428px;
   left:165px;
   /* Medium */
   @media(min-width:768px) and (max-width:991px){
     top: 783px;
     left: 202px;
   }
+  /* Large */
+  @media(min-width:992px){
+    display: none;
+}
 }
 
 .linea4{
@@ -395,6 +451,10 @@ left: 202px;
     top: 784px;
     left: 202px;
   }
+  /* Large */
+  @media(min-width:992px){
+    display: none;
+}
 }
 
 .linea5{
@@ -405,6 +465,10 @@ left: 202px;
   @media(min-width:768px) and (max-width:991px){
 top:716px;
   }
+  /* Large */
+  @media(min-width:992px){
+    display: none;
+}
 }
 
 .linea6{
@@ -413,8 +477,11 @@ top:716px;
   left:165px;
   /* Medium */
   @media(min-width:768px) and (max-width:991px){
-
   }
+  /* Large */
+  @media(min-width:992px){
+    display: none;
+}
 }
 
 .shiseido{
@@ -430,8 +497,21 @@ top:716px;
     position: relative;
     top: 326px;
     left: 137px;
+
   }
-}
+
+  /* Large */
+  @media(min-width:992px){
+    position: absolute;
+    top: 100%;
+    left: 29.5%;
+    :hover{
+      -webkit-transform: scale(1.01);
+        -ms-transform: scale(1.01);
+        transform: scale(1.01);
+    }
+    }
+  }
 
 .Affligem{
   display: flex;
@@ -446,6 +526,17 @@ top:716px;
     position: relative;
     top: 326px;
     left: 137px;
+  }
+  /* Large */
+  @media(min-width:992px){
+    position: absolute;
+    top: 140%;
+    left: 29.5%;
+    :hover{
+      -webkit-transform: scale(1.01);
+        -ms-transform: scale(1.01);
+        transform: scale(1.01);
+    }
   }
 }
 
@@ -463,6 +554,17 @@ top:716px;
     top: 335px;
     left: 137px;
   }
+  /* Large */
+  @media(min-width:992px){
+    position: absolute;
+    top: 180%;
+    left: 29.5%;
+    :hover{
+      -webkit-transform: scale(1.01);
+        -ms-transform: scale(1.01);
+        transform: scale(1.01);
+    }
+  }
 }
 
 .kantar{
@@ -479,6 +581,17 @@ top:716px;
     top: 332px;
     left: 137px;
   }
+  /* Large */
+  @media(min-width:992px){
+    position: absolute;
+    top: 220%;
+    left: 29.5%;
+    :hover{
+      -webkit-transform: scale(1.01);
+        -ms-transform: scale(1.01);
+        transform: scale(1.01);
+    }
+  }
 }
 
 
@@ -491,5 +604,13 @@ top:716px;
 position: absolute;
 left: 218px;
 top: 37px;
+}
+/* Large */
+@media(min-width:992px){
+position: absolute;
+display: flex;
+width: 100%;
+left: 35%;
+top: 28%;
 }
 }
