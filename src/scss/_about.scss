@@ -1,0 +1,386 @@
+html {
+  height: 100%;
+}
+
+body{
+  background-image: url('../images/fondo.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin-left: 30px;
+  float:left;
+  position: fixed;
+  top:40px;
+}
+
+.pc{
+
+  position: relative;
+  top: -14px;
+}
+
+.lineac{
+  position: relative;
+  top: 220px;
+  left: 46px;
+}
+
+.lineac2{
+  position: relative;
+  top: 187px;
+  left: 46px;
+}
+
+.lineac3{
+  position: relative;
+  top: -877px;
+  left: 46px;
+}
+
+.lineac4{
+  position: relative;
+  top: -1403px;
+  left: 46px;
+}
+
+.experience{
+  background-image: url('../images/iconosc-01.svg');
+  position: relative;
+  background-repeat: no-repeat;
+  top: 220px;
+  left: 27px;
+  height: 60px;
+  width: 60px;
+}
+
+.trabajos{
+  position: relative;
+  top: -540px;
+  left: 94px;
+}
+
+
+.ext{
+  position: relative;
+  top: 177px;
+  left: 95px;
+  color: #fff;
+}
+
+.skills{
+  background-image: url('../images/iconosc-03.svg');
+  position: relative;
+  background-repeat: no-repeat;
+  top: -510px;
+  left: 27px;
+  height: 60px;
+  width: 60px;
+}
+
+.ski{
+  position: relative;
+  top: -550px;
+  left: 95px;
+  color: #fff;
+}
+
+.skills2{
+  position: relative;
+  top: -515px;
+  left: 94px;
+}
+
+.studies{
+  background-image: url('../images/iconosc-02.svg');
+  position: relative;
+  background-repeat: no-repeat;
+  top: -805px;
+  left: 27px;
+  height: 60px;
+  width: 60px;
+}
+
+.estudio{
+  position: relative;
+  top: -845px;
+  left: 95px;
+  color: #fff;
+}
+
+.diplomas{
+  position: relative;
+  top: -820px;
+  left: 94px;
+}
+
+.download{
+  background-image: url('../images/iconosc-04.svg');
+  position: relative;
+  background-repeat: no-repeat;
+  top: -1404px;
+  left: -21px;
+  height: 60px;
+  width: 60px;
+}
+
+.descarga{
+  position: relative;
+  top: -1447px;
+  left: 50px;
+  color: #fff;
+}
+
+.flecha{
+  background-image: url('../images/flecha-05.svg');
+  position: relative;
+  background-repeat: no-repeat;
+  top: -462px;
+  left:67px;
+  height: 20px;
+  width: 20px;
+}
+
+.flecha2{
+  background-image: url('../images/flecha-05.svg');
+  position: relative;
+  background-repeat: no-repeat;
+  top: -264px;
+  left:67px;
+  height: 20px;
+  width: 20px;
+}
+
+.flecha3{
+  background-image: url('../images/flecha-05.svg');
+  position: relative;
+  background-repeat: no-repeat;
+  top: -66px;
+  left:67px;
+  height: 20px;
+  width: 20px;
+}
+
+.flecha4{
+  background-image: url('../images/flecha-05.svg');
+  position: relative;
+  background-repeat: no-repeat;
+  top: -336px;
+  left:67px;
+  height: 20px;
+  width: 20px;
+}
+
+.flecha5{
+  background-image: url('../images/flecha-05.svg');
+  position: relative;
+  background-repeat: no-repeat;
+  top: -316px;
+  left:67px;
+  height: 20px;
+  width: 20px;
+}
+
+.flecha6{
+  background-image: url('../images/flecha-05.svg');
+  position: relative;
+  background-repeat: no-repeat;
+  top: -296px;
+  left:67px;
+  height: 20px;
+  width: 20px;
+}
+.flecha7{
+  background-image: url('../images/flecha-05.svg');
+  position: relative;
+  background-repeat: no-repeat;
+  top: -276px;
+  left:67px;
+  height: 20px;
+  width: 20px;
+}
+
+.flecha8{
+  background-image: url('../images/flecha-05.svg');
+  position: relative;
+  background-repeat: no-repeat;
+  top: -256px;
+  left:67px;
+  height: 20px;
+  width: 20px;
+}
+
+.flecha9{
+  background-image: url('../images/flecha-05.svg');
+  position: relative;
+  background-repeat: no-repeat;
+  top: -236px;
+  left:67px;
+  height: 20px;
+  width: 20px;
+}
+
+.flecha10{
+  background-image: url('../images/flecha-05.svg');
+  position: relative;
+  background-repeat: no-repeat;
+  top: -217px;
+  left:67px;
+  height: 20px;
+  width: 20px;
+}
+
+.flecha11{
+  background-image: url('../images/flecha-05.svg');
+  position: relative;
+  background-repeat: no-repeat;
+  top: -196px;
+  left:67px;
+  height: 20px;
+  width: 20px;
+}
+
+.flecha12{
+  background-image: url('../images/flecha-05.svg');
+  position: relative;
+  background-repeat: no-repeat;
+  top: -722px;
+  left:67px;
+  height: 20px;
+  width: 20px;
+}
+.flecha13{
+  background-image: url('../images/flecha-05.svg');
+  position: relative;
+  background-repeat: no-repeat;
+  top: -630px;
+  left:67px;
+  height: 20px;
+  width: 20px;
+}
+.flecha14{
+  background-image: url('../images/flecha-05.svg');
+  position: relative;
+  background-repeat: no-repeat;
+  top: -538px;
+  left:67px;
+  height: 20px;
+  width: 20px;
+}
+.flecha15{
+  background-image: url('../images/flecha-05.svg');
+  position: relative;
+  background-repeat: no-repeat;
+  top: -422px;
+  left:67px;
+  height: 20px;
+  width: 20px;
+}
+
+.todo{
+  position: relative;
+  top: -163px;
+}
+
+.todo2{
+  position: relative;
+  top: -235px;
+}
+
+.todo3{
+  position: relative;
+  top: -60px;
+}
+
+.todo4{
+  position: relative;
+  top:-235px;
+  left:47px;
+}
+
+.bolitas{
+  background-image: url('../images/sk-01.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  top: -110px;
+  left:220px;
+  height: 60px;
+  width: 140px;
+}
+
+.bolitas1{
+  background-image: url('../images/sk-03.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  top: -271px;
+  left:220px;
+  height: 60px;
+  width: 140px;
+}
+
+.bolitas2{
+  background-image: url('../images/sk-02.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  top: -311px;
+  left:220px;
+  height: 60px;
+  width: 140px;
+}
+
+.bolitas3{
+  background-image: url('../images/sk-04.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  top: -230px;
+  left:220px;
+  height: 60px;
+  width: 140px;
+}
+
+.bolitas4{
+  background-image: url('../images/sk-05.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  top: -190px;
+  left:220px;
+  height: 60px;
+  width: 140px;
+}
+
+.bolitas5{
+  background-image: url('../images/sk-06.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  top: -150px;
+  left:220px;
+  height: 60px;
+  width: 140px;
+}
+
+.bolitas6{
+  background-image: url('../images/sk-07.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  top: -350px;
+  left:220px;
+  height: 60px;
+  width: 140px;
+}
+
+.bolitas7{
+  background-image: url('../images/sk-08.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  top: -70px;
+  left:220px;
+  height: 60px;
+  width: 140px;
+}

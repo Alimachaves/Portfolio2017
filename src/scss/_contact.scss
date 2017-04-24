@@ -1,48 +1,85 @@
-html {
-  height: 100%;
-}
-
-body{
-  background-image: url('../images/fondo.jpg');
-  background-repeat:no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  height: 100%;
-  width:100%;
-  margin: 0;
-padding: 0;
-}
-
-.megatitulo{
-  color: #fff;
-  position: absolute;
-  top: 9%;
-  left: 30%;
-}
-
-.titulo {
+.subtituloc {
   color: #fff;
   position: relative;
   top: 15%;
   left: 14%;
+  width:70%;
 }
 
-.subtitulo {
-  color: #fff;
-  position: relative;
-  top: 11%;
-  left: 14%;
+// Colores
+$green: #84AD47;
+$red: #AD4747;
+$blue: #4784AD;
+
+form {
+  width: 80%;
+    margin: 50px;
+    position: absolute;
+    top: 278px;
 }
 
-.fotosshiseido{
-  position: relative;
-  top: 90px;
-  left: 55px;
+input, textarea {
+  float: left;
+  width: 100%;
+  max-width: 100%;
+  border: none;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  background: darken(#f9f9f9, 10%);
+  color: darken(#f9f9f9, 50%);
 
+  &[type=submit] {
+    background: #fff;
+  color: #295266;
+    width: auto;
+    float: right;
+  }
+
+  &::placeholder {
+    color: darken(#f9f9f9, 50%);
+  }
+
+  &.error {
+    background: $red;
+    color: #fff;
+    &::placeholder {
+      color: darken($red, 60%);
+    }
+  }
+}
+textarea {
+  height: 10rem;
+}
+.captcha {
+  float:left;
+  input {
+    float: right;
+  }
+  input[name=question] {
+    width: 4rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    text-align: right;
+    padding-right: 0;
+  }
+  [name=captcha] {
+    width: 5rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-left: 0.5rem;
+    &::placeholder {
+      text-align: center;
+    }
+  }
 }
 
-.iconosshiseido{
+* {
+  box-sizing: border-box;
+}
+
+
+.iconosc{
   ul {
     position: relative;
     bottom: 0;
@@ -53,7 +90,7 @@ padding: 0;
     @media(max-width:767px){
       position: relative;
       display: flex;
-      top: 125px;
+      top: 450px;
       left: 55px;
     }
 

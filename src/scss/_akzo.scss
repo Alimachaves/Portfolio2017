@@ -1,48 +1,39 @@
-html {
-  height: 100%;
-}
-
-body{
-  background-image: url('../images/fondo.jpg');
-  background-repeat:no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  height: 100%;
-  width:100%;
-  margin: 0;
-padding: 0;
-}
-
-.megatitulo{
-  color: #fff;
+.imgsnipan{
+  width:375px;
+  height:737px;
+  background-image: url('../images/AKz1.png');
+  background-repeat: no-repeat;
+  background-position-x: -65px;
   position: absolute;
-  top: 9%;
-  left: 30%;
+background-position: center;
+top: 450px;
+left: 20px;
 }
 
-.titulo {
-  color: #fff;
-  position: relative;
-  top: 15%;
-  left: 14%;
-}
-
-.subtitulo {
-  color: #fff;
-  position: relative;
-  top: 11%;
-  left: 14%;
-}
-
-.fotosshiseido{
-  position: relative;
-  top: 90px;
-  left: 55px;
+.imgsnip2an{
+  width: 375px;
+  height: 500px;
+  background-image: url(../images/AKz3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+top: 840px;
+right: 20px;
 
 }
 
-.iconosshiseido{
+.imgsnip3an{
+  width: 375px;
+  height: 500px;
+  background-image: url(../images/AK2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+      top: 1200px;
+}
+
+
+.iconosan{
   ul {
     position: relative;
     bottom: 0;
@@ -53,7 +44,7 @@ padding: 0;
     @media(max-width:767px){
       position: relative;
       display: flex;
-      top: 125px;
+      top: 1350px;
       left: 55px;
     }
 

@@ -1,48 +1,38 @@
-html {
-  height: 100%;
+.fotocabecera{
+  position:absolute;
+  top:215px;
+  }
+
+  .parrafoaff{
+    width:70%;
+    position: relative;
+    top: 332px;
+    left: 60px;
+    text-align: left;
+    color: #fff;
+    display: block;
+  }
+
+.imgsnip{
+  width:375px;
+  height:737px;
+  background-image: url('../images/snipaff.png');
+  background-repeat: no-repeat;
+  background-position-x: -65px;
 }
 
-body{
-  background-image: url('../images/fondo.jpg');
-  background-repeat:no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+.imgsnip2{
+  width: 375px;
+  height: 500px;
+  background-image: url(../images/snipaff.png);
+  background-repeat: no-repeat;
+  background-position-x: -125px;
   background-position: center;
-  height: 100%;
-  width:100%;
-  margin: 0;
-padding: 0;
+  background-position-y: -300px;
 }
 
-.megatitulo{
-  color: #fff;
-  position: absolute;
-  top: 9%;
-  left: 30%;
-}
 
-.titulo {
-  color: #fff;
-  position: relative;
-  top: 15%;
-  left: 14%;
-}
-
-.subtitulo {
-  color: #fff;
-  position: relative;
-  top: 11%;
-  left: 14%;
-}
-
-.fotosshiseido{
-  position: relative;
-  top: 90px;
-  left: 55px;
-
-}
-
-.iconosshiseido{
+.iconosaff{
   ul {
     position: relative;
     bottom: 0;
