@@ -1,18 +1,41 @@
-html {
-  height: 100%;
+.megatituloc{
+  color: #fff;
+  position: absolute;
+  top: 9%;
+  left: 30%;
+
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    top: 2%;
+    left: 17%;
+}
+/* Large */
+@media(min-width:992px){
+  top: 2%;
+  left: 10%;
+  position: absolute;
+
+}
+}
+.tituloc {
+  color: #fff;
+  position: relative;
+  top: 15%;
+  left: 31%;
+
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    top: 9%;
+    left: 8%;
+}
+/* Large */
+@media(min-width:992px){
+  top: 20%;
+  left: 42%;
+  display: flex;
+}
 }
 
-body{
-  background-image: url('../images/fondo2.png');
-  background-repeat:no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  height: 100%;
-  width:100%;
-  margin: 0;
-  padding: 0;
-}
 
 
 .subtituloc {
@@ -21,6 +44,7 @@ body{
   top: 15%;
   left: 14%;
   width:70%;
+  text-align: center;
 
   /* Medium */
   @media(min-width:768px) and (max-width:991px){
@@ -31,99 +55,12 @@ body{
 
   /* Large */
   @media(min-width:992px){
-    top:10%;
-    left:10%;
-    width:30%;
+    top: 17%;
+    left: 35%;
+    width: 30%;
+
   }
 }
-
-// Colores
-$green: #84AD47;
-$red: #AD4747;
-$blue: #4784AD;
-
-form {
-  width: 80%;
-    margin: 50px;
-    position: absolute;
-    top: 278px;
-
-    /* Medium */
-    @media(min-width:768px) and (max-width:991px){
-    width: 46%;
-    top: 14%;
-    left: 41%;
-    position: absolute;
-}
-/* Large */
-@media(min-width:992px){
-  width: 35%;
-  top: 14%;
-  left: 41%;
-  position: absolute;
-}
-}
-
-input, textarea {
-  float: left;
-  width: 100%;
-  max-width: 100%;
-  border: none;
-  margin: 0.5rem 0;
-  padding: 0.5rem 1rem;
-  border-radius: 0.3rem;
-  background: darken(#f9f9f9, 10%);
-  color: darken(#f9f9f9, 50%);
-
-  &[type=submit] {
-    background: #fff;
-  color: #295266;
-    width: auto;
-    float: right;
-  }
-
-  &::placeholder {
-    color: darken(#f9f9f9, 50%);
-  }
-
-  &.error {
-    background: $red;
-    color: #fff;
-    &::placeholder {
-      color: darken($red, 60%);
-    }
-  }
-}
-textarea {
-  height: 10rem;
-}
-.captcha {
-  float:left;
-  input {
-    float: right;
-  }
-  input[name=question] {
-    width: 4rem;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    text-align: right;
-    padding-right: 0;
-  }
-  [name=captcha] {
-    width: 5rem;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    padding-left: 0.5rem;
-    &::placeholder {
-      text-align: center;
-    }
-  }
-}
-
-* {
-  box-sizing: border-box;
-}
-
 
 .iconosc{
   ul {
@@ -136,7 +73,7 @@ textarea {
     @media(max-width:767px){
       position: relative;
       display: flex;
-      top: 450px;
+      top: 300px;
       left: 55px;
     }
 
@@ -181,8 +118,8 @@ textarea {
   }
 
   .linkedin .border:hover {
-    background: #3b5998;
-    border-color: #436aaf;
+    background: #295266;
+    border-color: #0a1e29;
     color: rgba(255,255,255, 0.9);
     transform: scale(1.2);
   }
@@ -211,8 +148,8 @@ textarea {
   }
 
   .linkedin2 .border:hover {
-    background: #3b5998;
-    border-color: #436aaf;
+    background: #295266;
+    border-color: #0a1e29;
     color: rgba(255,255,255, 0.9);
     transform: scale(1.2);
   }
@@ -241,8 +178,8 @@ textarea {
   }
 
   .instagram .border:hover {
-    background: #3b5998;
-    border-color: #436aaf;
+    background: #295266;
+    border-color: #0a1e29;
     color: rgba(255,255,255, 0.9);
     transform: scale(1.2);
   }
@@ -250,4 +187,57 @@ textarea {
   .fa.fa-instagram {
     font-size: 25px;
   }
+}
+
+a.animated-button.thar-three {
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  text-align: center;
+  top: 160px;
+  left: 42%;
+  height: 40px;
+  width: 15%;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+
+  /* Small */
+  @media(max-width:767px){
+    top: 160px;
+  left: 23%;
+  height: 40px;
+  width: 50%;
+  }
+
+}
+
+a.animated-button.thar-three:hover {
+	color: #fff !important;
+	background-color: transparent;
+	text-shadow: nthree;
+    border-radius: 25px;
+}
+a.animated-button.thar-three:hover:before {
+	left: 0%;
+	right: auto;
+    border-radius: 25px;
+	width: 100%;
+}
+a.animated-button.thar-three:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+    border-radius: 25px;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	color: #fff !important;
+	background: #255c59;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
