@@ -87,6 +87,7 @@ top:-1388px;
   }
   /* Large */
   @media(min-width:992px){
+top: -1544px;
   }
 }
 
@@ -222,6 +223,10 @@ position: absolute;
   }
   /* Large */
   @media(min-width:992px){
+    position: relative;
+top: -892px;
+left: 110px;
+color: #fff;
   }
 }
 
@@ -255,6 +260,8 @@ position: absolute;
   }
   /* Large */
   @media(min-width:992px){
+top: -1402px;
+left: 33px;
   }
 }
 
@@ -270,6 +277,10 @@ position: absolute;
   }
   /* Large */
   @media(min-width:992px){
+
+top: -1424px;
+left: 50px;
+
   }
 }
 
@@ -344,9 +355,12 @@ top: -11.5%;
   /* Medium */
   @media(min-width:768px) and (max-width:991px){
     left: 7%;
+
 }
 /* Large */
 @media(min-width:992px){
+  top:-332px;
+  left: 5%;
 }
 }
 
@@ -365,6 +379,8 @@ top: -11.5%;
 }
 /* Large */
 @media(min-width:992px){
+  top:-307px;
+  left: 5%;
 }
 }
 
@@ -383,8 +399,11 @@ top: -11.5%;
 }
 /* Large */
 @media(min-width:992px){
+    top:-280px;
+    left: 5%;
 }
 }
+
 .flecha7{
   background-image: url('../images/flecha-05.svg');
   position: relative;
@@ -400,6 +419,8 @@ top: -11.5%;
 }
 /* Large */
 @media(min-width:992px){
+  left: 5%;
+  top: -255px;
 }
 }
 
@@ -418,6 +439,8 @@ top: -11.5%;
 }
 /* Large */
 @media(min-width:992px){
+  left: 5%;
+  top: -230px;
 }
 }
 
@@ -436,6 +459,8 @@ top: -11.5%;
 }
 /* Large */
 @media(min-width:992px){
+  left: 5%;
+  top: -203px;
 }
 }
 
@@ -454,6 +479,8 @@ top: -11.5%;
 }
 /* Large */
 @media(min-width:992px){
+  left: 5%;
+  top: -177px;
 }
 }
 
@@ -472,6 +499,8 @@ top: -11.5%;
 }
 /* Large */
 @media(min-width:992px){
+  left: 5%;
+  top: -150px;
 }
 }
 
@@ -489,6 +518,7 @@ left: 10%;
   }
   /* Large */
   @media(min-width:992px){
+    top:-718px;
   }
 }
 .flecha13{
@@ -505,6 +535,7 @@ left: 10%;
   }
   /* Large */
   @media(min-width:992px){
+    top:-615px;
   }
 }
 .flecha14{
@@ -521,6 +552,7 @@ left: 10%;
   }
   /* Large */
   @media(min-width:992px){
+    top:-510px;
   }
 }
 .flecha15{
@@ -537,6 +569,7 @@ left: 10%;
   }
   /* Large */
   @media(min-width:992px){
+    top:-378px;
   }
 }
 
@@ -550,7 +583,7 @@ left:25%;
   }
   /* Large */
   @media(min-width:992px){
-    top: -79%;
+    top: -44%;
     left: 31.6%;
   }
 }
@@ -565,18 +598,42 @@ left:22%;
   }
   /* Large */
   @media(min-width:992px){
+    position: relative;
+    top: -6%;
+    color: #fff;
+    left: 31.5%;
   }
 }
 
 .todo3{
   position: relative;
   top: -60px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+  }
+  /* Large */
+  @media(min-width:992px){
+    position: relative;
+  top: -170px;
+  left: 5px;
+  }
 }
 
 .todo4{
   position: relative;
   top:-235px;
   left:47px;
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+  }
+  /* Large */
+  @media(min-width:992px){
+    position: relative;
+    top: -188px;
+    left: 31%;
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .bolitas{
@@ -594,7 +651,7 @@ top: -19%;
   /* Large */
   @media(min-width:992px){
     left: 20%;
-        top:-7%;
+        top:-13%;
   }
 }
 
@@ -613,7 +670,7 @@ top: -53%;
   /* Large */
   @media(min-width:992px){
     left: 20%;
-        top:-26.7%;
+        top:-47.7%;
   }
 }
 
@@ -632,7 +689,7 @@ top: -61%;
   /* Large */
   @media(min-width:992px){
     left: 20%;
-        top:-31%;
+        top:-56%;
   }
 }
 
@@ -651,7 +708,7 @@ top: -44%;
   /* Large */
   @media(min-width:992px){
     left: 20%;
-        top:-22%;
+        top:-40%;
   }
 }
 
@@ -670,7 +727,7 @@ top: -36%;
   /* Large */
   @media(min-width:992px){
     left: 20%;
-        top:-17%;
+        top:-31%;
   }
 }
 
@@ -689,7 +746,7 @@ top: -28%;
   /* Large */
   @media(min-width:992px){
     left: 20%;
-        top:-12%;
+        top:-22%;
   }
 }
 
@@ -708,7 +765,7 @@ top: -70%;
   /* Large */
   @media(min-width:992px){
     left: 20%;
-    top:-36%;
+    top:-65%;
   }
 }
 
@@ -727,7 +784,7 @@ top: -10%;
   /* Large */
   @media(min-width:992px){
     left: 20%;
-    top: -2.2%;
+    top: -4.2%;
   }
 }
 
@@ -758,3 +815,15 @@ top: -10%;
     margin: 0;
   }
   }
+
+.fotomain2{
+  display: none;
+
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+}
+  /* Large */
+  @media(min-width:992px){
+
+  }
+}
