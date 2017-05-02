@@ -20,18 +20,19 @@
 .tituloc {
   color: #fff;
   position: relative;
-  top: 15%;
-  left: 31%;
+  top: 30%;
+  left: 42%;
 
   /* Medium */
   @media(min-width:768px) and (max-width:991px){
-    top: 9%;
-    left: 8%;
+    top: 35%;
+    left: 37%;
 }
+
 /* Large */
 @media(min-width:992px){
-  top: 20%;
-  left: 42%;
+  top: 25%;
+  left: 43%;
   display: flex;
 }
 }
@@ -41,21 +42,21 @@
 .subtituloc {
   color: #fff;
   position: relative;
-  top: 15%;
+  top: 28%;
   left: 14%;
   width:70%;
   text-align: center;
 
   /* Medium */
   @media(min-width:768px) and (max-width:991px){
-    top:10%;
-    left:8%;
-    width:30%;
+    top: 40%;
+    left: 27%;
+    width: 43%;
   }
 
   /* Large */
   @media(min-width:992px){
-    top: 17%;
+    top: 23%;
     left: 35%;
     width: 30%;
 
@@ -80,10 +81,9 @@
     /* Medium */
     @media(min-width:768px) and (max-width:991px){
       display: flex;
-    position: absolute;
-    top: 40%;
-    left: 3%;
-    flex-direction: row;
+    position: relative;
+    top: 600px;
+    left: 33%;
     }
 
     /* Large */
@@ -199,7 +199,7 @@ a.animated-button.thar-three {
   border: 2px solid #fff;
   border-radius: 25px;
   text-align: center;
-  top: 160px;
+  top: 210px;
   left: 42%;
   height: 40px;
   width: 15%;
@@ -207,7 +207,15 @@ a.animated-button.thar-three {
 
   /* Small */
   @media(max-width:767px){
-    top: 160px;
+    top: 200px;
+  left: 23%;
+  height: 40px;
+  width: 50%;
+  }
+
+  /* Medium */
+  @media(min-width:768px) and (max-width:991px){
+    top: 500px;
   left: 23%;
   height: 40px;
   width: 50%;
